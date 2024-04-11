@@ -1,5 +1,7 @@
 img {
-  width: 40vw;
+  width: 45vw;
+  height: 30vw;
+  object-fit: cover;
 }
 
 body{
@@ -7,4 +9,10 @@ body{
   color: antiquewhite;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 4vw;
+}
+
+.gallery{
+width: auto;
+margin: auto;
+text-align: center;
 }
