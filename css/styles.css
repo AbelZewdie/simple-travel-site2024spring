@@ -1,18 +1,52 @@
 img {
-  width: 45vw;
-  height: 30vw;
+  width: 20vw;
+  height: 15vw;
   object-fit: cover;
 }
 
-body{
-  background: darkolivegreen;
-  color: antiquewhite;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 4vw;
+.addisababa{
+  font-size: 1.5rem;
+  color: rgb(156, 167, 4);
+  text-align: center;
 }
 
+table{
+  tr:hover {background-color: rgb(255, 251, 4);}
+}
+th, td{
+padding: 0.5vw;
+text-align: left;
+}
+
+body{
+  /* background: rgb(31, 146, 3); */
+  color: rgb(4, 17, 51);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2vw;
+}
+nav{
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  font-size: 24px;
+  justify-content: space-between;
+
+}
 .gallery{
 width: auto;
 margin: auto;
 text-align: center;
+font-size: 1rem;
+
+}
+
+.discription{
+  width: auto;
+  text-align: center;
+
+}
+
+p{
+  font-size: 1.2rem;
+
 }
